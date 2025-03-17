@@ -21,8 +21,8 @@
     "@types/js-yaml": "^4.0.9",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "@typescript-eslint/eslint-plugin": "^8.26.0",
-    "@typescript-eslint/parser": "^8.26.0",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
     "@vitejs/plugin-react-swc": "^3.7.2",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.1",
@@ -36,7 +36,7 @@
     "react-dom": "^19.0.0",
     "rollup-plugin-visualizer": "^5.13.1",
     "typescript": "^5.8.2",
-    "vite": "^6.2.1",
+    "vite": "^6.2.2",
     "vite-plugin-svgr": "^4.3.0",
     "vitest": "^3.0.4"
   },
@@ -46,8 +46,8 @@
     "@swc/plugin-emotion": "^8.6.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "@typescript-eslint/eslint-plugin": "^8.26.0",
-    "@typescript-eslint/parser": "^8.26.0",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.1",
     "eslint-config-standard": "^17.1.0",
@@ -55,14 +55,14 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
-    "happy-dom": "^17.4.3",
+    "happy-dom": "^17.4.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/user-event": "^14.6.1",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
-    "vite": "^6.2.1",
+    "vite": "^6.2.2",
     "vitest": "^3.0.4"
   },
   "dependencies": {
@@ -77,10 +77,10 @@
     "chalk": "^5.4.1",
     "fs-extra": "^11.3.0",
     "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#documents-v2",
-    "happy-dom": "^17.4.3",
+    "happy-dom": "^17.4.4",
     "rimraf": "^6.0.1",
     "tsx": "^4.19.3",
     "yargs": "^17.7.2"
   },
-  "packageManager": "pnpm@10.6.2+sha512.47870716bea1572b53df34ad8647b42962bc790ce2bf4562ba0f643237d7302a3d6a8ecef9e4bdfc01d23af1969aa90485d4cebb0b9638fa5ef1daef656f6c1b"
+  "packageManager": "pnpm@10.6.3+sha512.bb45e34d50a9a76e858a95837301bfb6bd6d35aea2c5d52094fa497a467c43f5c440103ce2511e9e0a2f89c3d6071baac3358fc68ac6fb75e2ceb3d2736065e6"
 }
