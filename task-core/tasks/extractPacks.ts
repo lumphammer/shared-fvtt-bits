@@ -79,5 +79,5 @@ export async function extractPacks({ buildPath, log, publicPath }: TaskArgs) {
     }),
   );
 
-  console.log("All packs extracted\n");
+  console.log(chalk.green("All packs extracted\n"));
 }
