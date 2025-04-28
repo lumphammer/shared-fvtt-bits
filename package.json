@@ -21,8 +21,8 @@
     "@types/js-yaml": "^4.0.9",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "@typescript-eslint/eslint-plugin": "^8.30.1",
-    "@typescript-eslint/parser": "^8.30.1",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
     "@vitejs/plugin-react-swc": "^3.7.2",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.2",
@@ -36,7 +36,7 @@
     "react-dom": "^19.1.0",
     "rollup-plugin-visualizer": "^5.13.1",
     "typescript": "^5.8.3",
-    "vite": "^6.3.2",
+    "vite": "^6.3.3",
     "vite-plugin-svgr": "^4.3.0",
     "vitest": "^3.0.4"
   },
@@ -46,8 +46,8 @@
     "@swc/plugin-emotion": "^8.6.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "@typescript-eslint/eslint-plugin": "^8.30.1",
-    "@typescript-eslint/parser": "^8.30.1",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.2",
     "eslint-config-standard": "^17.1.0",
@@ -62,7 +62,7 @@
     "@testing-library/user-event": "^14.6.1",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3",
-    "vite": "^6.3.2",
+    "vite": "^6.3.3",
     "vitest": "^3.0.4"
   },
   "dependencies": {
@@ -82,5 +82,5 @@
     "tsx": "^4.19.3",
     "yargs": "^17.7.2"
   },
-  "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f"
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
 }
