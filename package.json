@@ -10,7 +10,8 @@
     "lint:check": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "format:check": "npx prettier --check src task-core dotfiles",
-    "format:fix": "npx prettier --check src task-core dotfiles --write"
+    "format:fix": "npx prettier --check src task-core dotfiles --write",
+    "check": "pnpm run typecheck && pnpm run lint:check && pnpm run format:check"
   },
   "keywords": [],
   "author": "",

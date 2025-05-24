@@ -3,10 +3,9 @@ import { ReactNode, StrictMode } from "react";
 import { createRoot, Root } from "react-dom/client";
 
 import { FoundryAppContext } from "./FoundryAppContext";
-import { Constructor, RecursivePartial } from "./types";
-import ApplicationV2 = foundry.applications.api.ApplicationV2;
+import { Constructor } from "./types";
 
-import ApplicationConfiguration = foundry.applications.types.ApplicationConfiguration;
+import ApplicationV2 = foundry.applications.api.ApplicationV2;
 import RenderOptions = foundry.applications.api.ApplicationV2.RenderOptions;
 
 // so Constructor<Application> is any class which is an Application
