@@ -46,16 +46,12 @@ jobs:
 
       - uses: pnpm/action-setup@v4
 
+      - name: Install dependencies
+        run: pnpm install
+
       - uses: actions/setup-node@v5
         with:
           node-version-file: '.nvmrc'
-
-      - name: Activate pnpm
-        run: |
-          npm install -g corepack@latest
-          corepack enable
-
-        # corepack prepare pnpm@${{ inputs.pnpm_version }} --activate
 
       - name: Instrumentation
         run: |
@@ -64,14 +60,7 @@ jobs:
           cat tsconfig.json
           export
           node --version
-          pnpm --version
-          corepack --version
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Instrument tsc version
-        run: npx tsc --version
+          npx tsc --version
 
       # - name: Update manifest
       #   if: needs.parse_tag.outputs.tag_version != ''
