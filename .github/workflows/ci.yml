@@ -48,7 +48,7 @@ jobs:
           # install here so setup-node can see a lockfile
           run_install: true
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
 
