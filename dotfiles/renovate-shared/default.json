@@ -15,5 +15,6 @@
     "@vitejs/plugin-react-swc",
     "less",
     "pnpm"
-  ]
+  ],
+  "minimumReleaseAge": "1 day"
 }
