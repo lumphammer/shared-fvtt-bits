@@ -16,5 +16,15 @@
     "less",
     "pnpm"
   ],
-  "minimumReleaseAge": "1 day"
+  "minimumReleaseAge": "1 day",
+  "packageRules": [
+    {
+      "matchPackageNames": ["actions/*"],
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
+    },
+    {
+      "matchPackageNames": ["fvtt-types"],
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
+    }
+  ]
 }
