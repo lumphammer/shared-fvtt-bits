@@ -23,7 +23,7 @@
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     },
     {
-      "matchPackageNames": ["fvtt-types"],
+      "matchPackageNames": ["fvtt-types*"],
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     }
   ]
