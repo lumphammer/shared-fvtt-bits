@@ -19,11 +19,11 @@
   "minimumReleaseAge": "1 day",
   "packageRules": [
     {
-      "matchPackageNames": ["fvtt-types", "actions/*"],
+      "matchPackageNames": ["actions/*"],
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     },
     {
-      "matchPackageNames": ["fvtt-types*", "github:*"],
+      "matchDepNames": ["fvtt-types"],
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     }
   ]
