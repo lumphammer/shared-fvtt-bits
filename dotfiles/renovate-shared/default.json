@@ -23,10 +23,7 @@
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     },
     {
-      "matchPackageNames": [
-        "fvtt-types*",
-        "github:League-of-Foundry-Developers/foundry-vtt-types#main"
-      ],
+      "matchPackageNames": ["fvtt-types*", "github:*"],
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     }
   ]
