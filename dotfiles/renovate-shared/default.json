@@ -19,7 +19,7 @@
   "minimumReleaseAge": "1 day",
   "packageRules": [
     {
-      "matchPackageNames": ["actions/*"],
+      "matchPackageNames": ["fvtt-types", "actions/*"],
       "minimumReleaseAgeBehaviour": "timestamp-optional"
     },
     {
