@@ -74,7 +74,7 @@
     "archiver": "^8.0.0",
     "chalk": "^6.0.1",
     "fs-extra": "^11.4.1",
-    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
+    "fvtt-types": "13.346.0-beta.20250812191140",
     "globals": "^17.12.0",
     "happy-dom": "^20.14.5",
     "rimraf": "^6.1.3",
