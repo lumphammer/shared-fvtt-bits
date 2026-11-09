@@ -18,7 +18,7 @@ catalog:
   react-dom: ^19.3.1
   tsx: ^4.23.15
   typescript: 7.0.2
-  vite: 8.3.5
+  vite: 8.3.6
   vitest: ^3.2.4
 
 # Force one copy of each (e.g. vitest 3 would otherwise bring its own vite).
